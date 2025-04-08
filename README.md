@@ -21,7 +21,7 @@ sudo docker run -d -p 80:80 --name 120fcproyecto1 120fcproyecto1:1.0
 No deja utilizar nano, por lo que se ha modificado el fichero en el host.
 y copiado en la carpeta del contenendor.
 ```
-docker cp index.html 107fcproyecto1:/usr/share/nginx/html/index.html
+docker cp index.html 120fcproyecto1:/usr/share/nginx/html/index.html
 
 ```
 para ver si se ha copiado bien
