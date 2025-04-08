@@ -6,12 +6,12 @@
 
 ### Paso 1: Construcción de la imagen
 ```
-sudo docker build -t 107fcproyecto1:1.0 .
+sudo docker build -t 120fcproyecto1:1.0 .
 ```
  
 ### Paso 2. Ejecutar el contenedor en el puerto 80, 100fcproyecto1 
 ```
-sudo docker run -d -p 80:80 --name 107fcproyecto1 107fcproyecto1:1.0
+sudo docker run -d -p 80:80 --name 120fcproyecto1 120fcproyecto1:1.0
 ```
  
 ### Paso 3. Comprobación: http://localhost 
